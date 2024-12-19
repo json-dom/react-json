@@ -76,7 +76,7 @@ Once you have node and npm installed you can use the console to:
 	```bash
 	npm i @json-dom/react-json
 	
-	import { json, dom, globals } from "@json-dom/react-json";
+	import { json, dom, globals } from "@json-dom/react-json"
 
 - Alternatively you can:
 
