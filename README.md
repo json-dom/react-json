@@ -68,14 +68,14 @@ Once you have node and npm installed you can use the console to:
 - With npx installed you can download the available starter template by:
 
 	```bash
-	npx react-json-starter
+	npx @json-dom/react-json-starter
 
 - You can also install it to an existing project by:
 
 	```bash
-	npm i @joaoalbertocsjunior/react-s
+	npm i @json-dom/react-json
 	
-	import { json, dom, globals } from "@joaoalbertocsjunior/react-s";
+	import { json, dom, globals } from "@json-dom/react-json";
 
 - Alternatively you can:
 
