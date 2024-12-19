@@ -34,7 +34,7 @@ White sections are still under construction and not yet available.
 
 - Features
 - [Prerequisites](#prerequisites)
-- Installation(#installation)
+- [Installation](#installation)
 - Documentation
 - [License](#license)
 - [Third-Party Libraries](#third-party-libraries)
