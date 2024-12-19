@@ -1,46 +1,40 @@
 import { useState } from 'react';
-import dom from './json-dom/index.js';
+import { json, dom, globals } from '@json-dom/react-json';
 import './App.css';
+
+globals();
 
 function App() {
     const [counter, setCounter] = useState(0);
-    const json = [
+    const pageStructure = [
         {
-            e: 'div',
-            p: {
-                id: 'container'
-            },
+            e: div,
+            p: { id: 'container' },
             c: [
                 {
-                    e: 'details',
+                    e: details,
                     c: [
+                        { e: summary, c: ['click to expand'] },
                         {
-                            e: 'summary',
-                            c: ['Click here to expand'],
-                        },
-                        {
-                            e: 'button',
-                            p: {
-                                onClick: () => setCounter(counter + 1)
-                            },
+                            e: button,
+                            p: { onClick: () => setCounter(counter + 1) },
                             c: [`You clicked: ${counter} times!`],
                         },
-                        {
-                            e: 'br',
-                            selfClosing: true
-                        },
-                        {
-                            e: 'p',
-                            c: ['Lorem Ipsum'],
-                        },
+                        { e: br },
+                        { e: p, c: [counter > 0 ? counter : 'Hello World!'] },
                     ],
                 },
             ],
         },
     ];
 
-    // json(dom) can also be used
-    return dom(json);
-};
+    const render = dom(pageStructure);
+
+    const renderedJson = json(render);
+
+    const _render = dom(renderedJson);
+
+    return _render;
+}
 
 export default App;

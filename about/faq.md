@@ -7,6 +7,7 @@
 - json is _easy to parse_.
 - json is _easy to mantain_.
 - json is _widely adopted_.
+- json _is database and api friendly_.
 - json excels at being _one of the best data interchange formats_ between integrated systems.
 
 You can also handle logic inside a _javascript object_.

@@ -1,6 +1,6 @@
 # react-json
 
-**react-json stands for _structure_, _short_ & _simple_.**
+**react-json stands for _structure_, _short_ & _simple_**
 
 This aims to be a light-weight, minimal and community-driven project to achieve the goal of giving the developers an opportunity to leverage the most of react.js potential by providing web developers tools to write webapps using _json_ structural patters instead of _xml_. This enables developers to use non-relational databases and json-oriented apis to build the next _state-of-art_ web.
 
@@ -61,7 +61,42 @@ Must known syntaxes:
 
 [MDN](https://developer.mozilla.org/en-US/) is also a great learning source for indeep web development material although i highly recommend using _w3schools_ first for fast references.
 
-## Installation (Available Soon)
+## Installation
+
+Once you have node and npm installed you can use the console to:
+
+- With npx installed you can download the available starter template by:
+
+	```bash
+	npx react-json-starter
+
+- You can also install it to an existing project by:
+
+	```bash
+	npm i @joaoalbertocsjunior/react-s
+	
+	import { json, dom, globals } from "@joaoalbertocsjunior/react-s";
+
+- Alternatively you can:
+
+	1. **Clone the repository**
+
+	   Start by cloning the repository to your local machine. 
+
+	   ```bash
+	   git clone https://github.com/json-dom/react-json.git
+	   cd react-json-starter  
+	   
+	2. **Install dependencies**
+
+		```bash
+		npm install
+		
+	2. **Run development server**	
+		
+		```bash
+		npm run start
+
 
 ## Documentation (Available Soon)
 
