@@ -1,3 +1,4 @@
+[this project is marked as ceased for a while]
 # react-json
 
 **react-json stands for _structure_, _short_ & _simple_**
