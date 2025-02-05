@@ -13,6 +13,10 @@
 You can also handle logic inside a _javascript object_.
 </details>
 <details>
+<summary>Why this is called The Long-Run FAQ</summary>
+  To reach a state where this becomes stable, OWASP compliant and language agnostic, this is marked as Long-Run.
+</details>
+<details>
 <summary>Is the project production ready?</summary>
 
 In summary, **no**, _eventually_ it will be.
@@ -30,11 +34,4 @@ Next releases include:
 
 No, the best way is to use the parser functions.
 </details>
-<details>
-<summary>What to expect next</summary>
 
-- _Better_ overall support for state and state management libraries;
-- _Better_ support for react-router;
-- _Enhanced_ code flow;
-- Minified and CDN version;
-</details>
