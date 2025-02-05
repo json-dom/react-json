@@ -10,7 +10,7 @@ This aims to be a light-weight, minimal and community-driven project to achieve 
 ## Why _this should remain evergreen_
 
 - In _near_ future, ready-to-consume components may be more easy to integrate by being directly requested and fetched via json-based apis or be transmitted and retrieved with the help of body requests or url params, using json instead of xml.
-- This is possible due to the capability of serving data-bound components already attached to they corresponding render structure.
+- This is possible due to the capability of serving state-embed data-bound components already attached to they corresponding render structure.
 - This enable developers to add new features to apps in a more _fast_ and _deploy-ready_ way.
 
 ## This _is not_ a
